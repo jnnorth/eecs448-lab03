@@ -1,0 +1,2 @@
+background: https://www.flickr.com/photos/andreweick/175269580
+cat: https://commons.wikimedia.org/wiki/File:Cat_March_2010-1.jpg

@@ -1,0 +1,26 @@
+p
+{
+  width: 300px;
+  background-color: cyan;
+  color: black;
+  font-family: arial;
+  font-size: 15pt;
+}
+
+body
+{
+  background-image: url(pics/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.link
+{
+  color: yellow;
+}
+
+.link:hover
+{
+  color: red;
+}
