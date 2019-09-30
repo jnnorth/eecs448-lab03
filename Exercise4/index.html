@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS manipulation through Javascript</title>
+    <script type="text/javascript"
+            src="manipulation.js"></script>
+    <link href="style.css"
+          rel="stylesheet"
+          type="text/css">
+  </head>
+  <script type="text/javascript"
+          src="manipulation.js"></script>
+  <body>
+    <p id="dummy">This sentence is meant to be dummy text. This page is designed to practice
+      manipulating CSS with Javascript code. """""""""
+    """"""""""""""""""""""""""""""""""""""""""""""""""""
+  """"""""""""""""""""""""""""""""""""""""""""""""""""""""</p><br>
+
+    <p id="bd_title">Adjust border color and width (Colors from 00-FF)</p><br>
+    Red: <input type="text" id="bd_red"><br>
+    Green: <input type="text" id="bd_green"><br>
+    Blue: <input type="text" id="bd_blue"><br>
+    Border Width: <input type="text" id="bd_width"><br>
+
+    <p id="bg_title">Adjust background color (00-FF)</p><br>
+    Red: <input type="text" id="bg_red"><br>
+    Green: <input type="text" id="bg_green"><br>
+    Blue: <input type="text" id="bg_blue"><br>
+
+    <button onclick="manipulate()">Change</button>
+
+  </body>
+</html>
